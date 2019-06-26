@@ -1,14 +1,14 @@
 const convertHexColor = () => {
     let color = document.getElementById("hexColorInput").value;
     R = hexToR(color);
-    G = hextoG(color);
-    B = hextoB(color);
+    G = hexToG(color);
+    B = hexToB(color);
     // document.getElementById("displayRGB").innerHTML = `rgb(${R}, ${G}, ${B})`;
     document.getElementById("rColor").value = R;
     document.getElementById("gColor").value = G;
     document.getElementById("bColor").value = B;
     colorDisplay = document.querySelector(".displayColor");
-     document.getElementById("displayColor").style.backgroundColor = `#${color}`;
+    document.getElementById("displayColor").style.backgroundColor = `#${color}`;
 }
 
   //get color red
