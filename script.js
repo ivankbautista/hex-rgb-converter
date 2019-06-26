@@ -1,8 +1,13 @@
 const convertHexColor = () => {
     let color = document.getElementById("hexColorInput").value;
+    console.log(color)
     R = hexToR(color);
-    G = hextoG(color);
-    B = hextoB(color);
+    G = hexToG(color);
+    B = hexToB(color);
+    
+    console.log(R)
+    console.log(G)
+    console.log(B)
     // document.getElementById("displayRGB").innerHTML = `rgb(${R}, ${G}, ${B})`;
     document.getElementById("rColor").value = R;
     document.getElementById("gColor").value = G;
