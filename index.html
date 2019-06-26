@@ -7,13 +7,13 @@
 <body>
     <h1>Convert Colors</h1>
     <h3>Hex Color</h3>
-    <input type = 'text' id='hexColorInput' placeholder="#FFFFFF">
+    <input type = 'text' id='hexColorInput' value="ffffff">
     <button id='getRGB'>Get RGB Color</button>
     <br>
     <h3>RGB Color</h3>
-    <input type = 'text' id='rColor' placeholder="RED" maxlength="3">
-    <input type = 'text' id='gColor' placeholder="GREEN" maxlength="3">
-    <input type = 'text' id='bColor' placeholder="BLUE" maxlength="3">
+    <input type = 'text' id='rColor' placeholder="RED" maxlength="3" min="0" max="255">
+    <input type = 'text' id='gColor' placeholder="GREEN" maxlength="3" min="0" max="255">
+    <input type = 'text' id='bColor' placeholder="BLUE" maxlength="3" min="0" max="255">
     <button id='getHEX'>Get HEX color</button>
 
     <div class="displayColor" id="displayColor" align="center"></div>
